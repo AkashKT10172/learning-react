@@ -31,7 +31,7 @@ const PassGen = () => {
     },[len, numAll, charAll, passGen]);
 
     return (
-    <div className='h-screen w-full bg-amber-500 flex flex-col justify-center items-center'>
+    <div className='h-[calc(100vh-60px)] w-full bg-amber-500 flex flex-col justify-center items-center'>
         <h1 className="my-5 text-3xl font-bold underline flex flex-wrap justify-center align-center">my-password-generator</h1>
         <div className='my-5 border-2 border-cyan-950 p-2'>
             <input
